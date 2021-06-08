@@ -1,5 +1,6 @@
 class Artist
   def artist(name)
-    self.name = name
+    @name = name
+    name
   end
 end
